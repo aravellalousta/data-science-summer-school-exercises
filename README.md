@@ -9,6 +9,7 @@ This repository contains Python code exercises completed during the Data Science
   - **NumPy**: Numerical operations.
   - **Pandas**: Data manipulation.
   - **Matplotlib**: Data visualization.
+  - **Plotly**: Data visualization.
 
 ## Getting Started
 
