@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("AdvancedAssignment/data/filtered_employees.csv")
+df = pd.read_csv("IntermediateAssignment/data/filtered_employees.csv")
 
 mean_absences = df.groupby("PerformanceScore")["Absences"].mean().reset_index()
 

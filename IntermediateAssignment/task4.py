@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-df = pd.read_csv("AdvancedAssignment/data/filtered_employees.csv")
+df = pd.read_csv("IntermediateAssignment/data/filtered_employees.csv")
 
 emp_per_dept = df["Department"].value_counts()
 print(emp_per_dept)

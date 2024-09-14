@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv("AdvancedAssignment/data/filtered_employees.csv")
+df = pd.read_csv("IntermediateAssignment/data/filtered_employees.csv")
 
 departments = df.groupby("Department")
 
